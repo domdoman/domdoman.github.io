@@ -1,7 +1,7 @@
 [
-    { coords: [53.35758, -6.23424], popup: "ESB East Wall", type: 'location'},
-    { coords: [53.2521699095364, -6.124163144044842], popup: "Ridge Hall", type: 'location'},
-    { coords: [53.299678130352156, -6.175327335956016], popup: "Frascati House", type: 'location'},
-    { coords: [53.187510381883406, -7.983908114961095], popup: "La Sainte Union Convent Banagher", type: 'location'},
-    { coords: [53.31879278092031, -6.381074168603184], popup: "SIAC Construction", type: 'location'},
+    { "coords": [53.35758, -6.23424], "popup": "ESB East Wall", "type": "location"},
+    { "coords": [53.2521699095364, -6.124163144044842], "popup": "Ridge Hall", "type": "location"},
+    { "coords": [53.299678130352156, -6.175327335956016], "popup": "Frascati House", "type": "location"},
+    { "coords": [53.187510381883406, -7.983908114961095], "popup": "La Sainte Union Convent Banagher", "type": "location"},
+    { "coords": [53.31879278092031, -6.381074168603184], "popup": "SIAC Construction", "type": "location"},
 ]
