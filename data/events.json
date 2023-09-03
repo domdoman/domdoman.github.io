@@ -1,0 +1,5 @@
+[
+    { coords: [53.34022, -6.26077], popup: "Algerian national charged over horror Grafton Street stabbing - [<a href='https://gript.ie/algerian-national-charged-over-horror-grafton-street-stabbing/' target='_blank'>More Info</a>]", type: 'event'},
+    { coords: [53.32336209116907, -6.238313188814177], popup: "Man in court accused of ‘random’ face-slashing attack on woman in Dublin - [<a href='https://www.irishtimes.com/crime-law/2023/09/01/man-remanded-accused-of-random-face-slashing-attack-on-woman-in-dublin/' target='_blank'>More Info</a>]", type: 'event'},
+    { coords: [54.28027757457044, -8.47654995934747], popup: "Man (23) pleads guilty to murdering Aidan Moffitt and Michael Snee in Sligo last year - [<a href='https://www.thejournal.ie/yousef-palani-pleads-guilty-sligo-murders-6133085-Jul2023/' target='_blank'>More Info</a>]", type: 'event'},
+]
