@@ -7,7 +7,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
+    
       gtag('config', 'G-E5JELYNQ61');
     </script>
     <title>Irish Plantations - Location &amp; Event Information</title>
@@ -39,7 +39,6 @@
     <script type="text/javascript" src="js/leaflet.legend.js"></script>
 
     <script>
-
         var map = L.map('map').setView([53.424, -7.927], 8);
 
         L.control.Legend({
@@ -80,20 +79,6 @@
             shadowSize: [41, 41]
         });
 
-        // var locations = [
-        //     { coords: [53.35758, -6.23424], popup: "ESB East Wall", type: 'location'},
-        //     { coords: [53.2521699095364, -6.124163144044842], popup: "Ridge Hall", type: 'location'},
-        //     { coords: [53.299678130352156, -6.175327335956016], popup: "Frascati House", type: 'location'},
-        //     { coords: [53.187510381883406, -7.983908114961095], popup: "La Sainte Union Convent Banagher", type: 'location'},
-        //     { coords: [53.31879278092031, -6.381074168603184], popup: "SIAC Construction", type: 'location'},
-        // ];
-
-        // var events = [
-        //     { coords: [53.34022, -6.26077], popup: "Algerian national charged over horror Grafton Street stabbing - [<a href='https://gript.ie/algerian-national-charged-over-horror-grafton-street-stabbing/' target='_blank'>More Info</a>]", type: 'event'},
-        //     { coords: [53.32336209116907, -6.238313188814177], popup: "Man in court accused of ‘random’ face-slashing attack on woman in Dublin - [<a href='https://www.irishtimes.com/crime-law/2023/09/01/man-remanded-accused-of-random-face-slashing-attack-on-woman-in-dublin/' target='_blank'>More Info</a>]", type: 'event'},
-        //     { coords: [54.28027757457044, -8.47654995934747], popup: "Man (23) pleads guilty to murdering Aidan Moffitt and Michael Snee in Sligo last year - [<a href='https://www.thejournal.ie/yousef-palani-pleads-guilty-sligo-murders-6133085-Jul2023/' target='_blank'>More Info</a>]", type: 'event'},
-        // ];
-
         fetch('data/locations.json')
             .then(response => response.json())
             .then(markers => {
@@ -121,22 +106,6 @@
             .catch(error => {
                 console.error('Error fetching markers data:', error);
             });
-
-
-
-        // locations.forEach(function(marker) {
-        //     var latlng = L.latLng(marker.coords[0], marker.coords[1]);
-        //     var popup = L.popup().setContent(`<b>LOCATION</b><br>${marker.popup}`);
-            
-        //     var mapMarker = L.marker(latlng, { title: "Marker", icon: locationIcon }).addTo(map).bindPopup(popup);
-        // });
-
-        // events.forEach(function(marker) {
-        //     var latlng = L.latLng(marker.coords[0], marker.coords[1]);
-        //     var popup = L.popup().setContent(`⚠️ <b>EVENT</b> ⚠️<br>${marker.popup}`);
-            
-        //     var mapMarker = L.marker(latlng, { title: "Marker", icon: eventIcon }).addTo(map).bindPopup(popup);
-        // });
 
     </script>
 </body>
